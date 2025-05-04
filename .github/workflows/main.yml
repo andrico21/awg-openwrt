@@ -1,5 +1,5 @@
 name: Build on push tag
-# on: [workflow_dispatch]
+on: [workflow_dispatch]
 on:
   push:
     tags:

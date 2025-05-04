@@ -12,10 +12,10 @@ jobs:
       matrix:
         build_env:
           #- tag: "23.05.4"
-          - tag: "23.05.5"
+          - tag: "21.02.7"
             pkgarch: mipsel_24kc
-            target: mediatek
-            subtarget: filogic
+            target: ramips
+            subtarget: mt7621
             vermagic: "144de9e5c1a8813b724b14faa054d9f0"
 
     steps:
